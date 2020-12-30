@@ -1,0 +1,38 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: minmax(100px,auto)
+    
+/* . spaces between the grid column. it depends on the children*/
+}
+ul{
+    list-style-type: none; display: grid;
+    grid-template-rows: repeat(8,25px);
+}
+#outer{
+    width: 100%;
+    text-align: center;
+}
+#inner{display: inline-block; height: 50vh;}
+li:id1{
+    list-style-image: url("icons/gauge-dashboard.png");
+}
+li:id2{
+    list-style-image: url("icons/building-modern.png");
+}li:id3{
+    list-style-image: url("icons/house");
+}li:id1{
+    list-style-image: url("icons/gauge-dashboard");
+}li:id1{
+    list-style-image: url("icons/gauge-dashboard");
+}li:id1{
+    list-style-image: url("icons/gauge-dashboard");
+}li:id1{
+    list-style-image: url("icons/gauge-dashboard");
+}li:id1{
+    list-style-image: url("icons/gauge-dashboard");
+}li:id1{
+    list-style-image: url("icons/gauge-dashboard");
+}li:id1{
+    list-style-image: url("icons/gauge-dashboard");
+}
