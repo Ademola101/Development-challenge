@@ -3,8 +3,9 @@
     grid-template-columns: 1fr 4fr;
     grid-auto-rows: minmax(100px,auto)
     
-/* . spaces between the grid column. it depends on the children*/
 }
+li{display: grid;
+grid-template-columns: 1fr 5fr;}
 ul{
     list-style-type: none; display: grid;
     grid-template-rows: repeat(8,25px);
@@ -14,25 +15,3 @@ ul{
     text-align: center;
 }
 #inner{display: inline-block; height: 50vh;}
-li:id1{
-    list-style-image: url("icons/gauge-dashboard.png");
-}
-li:id2{
-    list-style-image: url("icons/building-modern.png");
-}li:id3{
-    list-style-image: url("icons/house");
-}li:id1{
-    list-style-image: url("icons/gauge-dashboard");
-}li:id1{
-    list-style-image: url("icons/gauge-dashboard");
-}li:id1{
-    list-style-image: url("icons/gauge-dashboard");
-}li:id1{
-    list-style-image: url("icons/gauge-dashboard");
-}li:id1{
-    list-style-image: url("icons/gauge-dashboard");
-}li:id1{
-    list-style-image: url("icons/gauge-dashboard");
-}li:id1{
-    list-style-image: url("icons/gauge-dashboard");
-}
