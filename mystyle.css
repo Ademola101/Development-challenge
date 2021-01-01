@@ -40,3 +40,48 @@ bottom: 17px;}
 .border{height: 100vh;
     border-right:1.5px solid rgb(192, 191, 189);
 }
+
+.circle{border:1px solid rgb(146, 144, 140) ;
+    margin-left: 30px; width: 100px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    display: grid;
+    grid-template-columns: 15px 40px;
+text-align: center;}
+.square{ display: inline-block;
+    width: 47px;
+    height: 47px;
+    background-color: royalblue;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.line{position: relative;
+    display: grid;
+    grid-template-rows: 5px 5px 5px 5px;
+top: 22px;
+left: 10px;
+row-gap: 5px;}
+.firstline{
+    background-color: royalblue;
+    height: 60%;
+}
+
+.secondline{
+    background-color: rgb(194, 21, 30);
+    height: 60%;
+}
+
+.thirdline{
+    background-color: royalblue;
+    height: 60%;
+}
+
+.fourthline{
+    background-color: rgb(213, 226, 35);
+    height: 60%;
+}
