@@ -50,15 +50,15 @@ bottom: 17px;}
     top: 20px;
     left: 20px;
     display: grid;
-    grid-template-columns: 15px 40px;
+    grid-template-columns: 3px 15px 40px;
 text-align: center;}
 .square{ display: inline-block;
     width: 47px;
     height: 47px;
-    background-color: royalblue;
+    background-color: rgb(119, 94, 228) ;
     position: relative;
     top: 15px;
-    left: 10px;
+    left: 7px;
 }
 .line{position: relative;
     display: grid;
@@ -67,7 +67,7 @@ top: 22px;
 left: 10px;
 row-gap: 5px;}
 .firstline{
-    background-color: royalblue;
+    background-color:  rgb(119, 94, 228);
     height: 60%;
 }
 
@@ -77,11 +77,44 @@ row-gap: 5px;}
 }
 
 .thirdline{
-    background-color: royalblue;
+    background-color: rgb(27, 214, 136);
     height: 60%;
 }
 
 .fourthline{
     background-color: rgb(213, 226, 35);
     height: 60%;
+}
+.dot{
+    display: grid;
+    grid-template-rows: 5px 5px 5px 5px 5px;
+row-gap: 5px;
+position: relative;
+top: 19px;
+left: 5px;}
+.first_dot{
+    height: 8px;
+    width: 8px;
+    background-color: rgb(119, 94, 228);
+    border-radius: 50%;
+}
+.second_dot{
+    height: 8px;
+    width: 8px;
+    background-color: rgb(119, 94, 228);
+    border-radius: 50%;
+}
+
+.third_dot{
+    height: 8px;
+    width: 8px;
+    background-color: rgb(119, 94, 228);
+    border-radius: 50%;
+}
+
+.fourth_dot{
+    height: 8px;
+    width: 8px;
+    background-color: rgb(119, 94, 228);
+    border-radius: 50%;
 }
